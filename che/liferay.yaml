@@ -33,7 +33,7 @@ items:
             value: "domain"
           - name: JAVA_VERSION
             value: zulu11
-          image: image-registry.openshift-image-registry.svc:5000/liferay/liferay:latest
+          image: quay.io/myarbrou_redhat/liferay:latest
           resources:
             requests: 
               memory: "2048Mi"
